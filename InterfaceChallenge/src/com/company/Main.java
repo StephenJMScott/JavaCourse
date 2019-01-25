@@ -7,6 +7,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Player ste = new Player("Ste", 10, 14, "Guns");
+        System.out.println(ste.toString());
+        saveObj(ste);
+
+        ste.setHitPoints(39);
+        System.out.println(ste);
+        ste.setWeapons("knife");
+        saveObj(ste);
+        loadObj(ste);
+        System.out.println(ste);
 
     }
     public static ArrayList<String> readValues(){
