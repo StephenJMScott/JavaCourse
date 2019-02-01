@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32aa1135-aa3b-4016-915e-f46b2e5bc3ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/stephen/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stephen/Location.java" afterDir="false" />
+    <list default="true" id="a07086ed-dd04-4290-b5a2-a289c3499f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stephen/HeavenlyBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adventure/out/production/Adventure/com/stephen/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/out/production/Adventure/com/stephen/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adventure/out/production/Adventure/com/stephen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/out/production/Adventure/com/stephen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adventure/src/com/stephen/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/src/com/stephen/Location.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/stephen/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="372">
+              <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/stephen/Location.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stephen/HeavenlyBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="510">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -40,24 +45,14 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>locations.get\(\d\).addExit</find>
-      <find>));</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>tempExit.put</replace>
-      <replace>, tempExit));;</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/stephen/HeavenlyBody.java" />
         <option value="$PROJECT_DIR$/src/com/stephen/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/stephen/Location.java" />
       </list>
     </option>
   </component>
@@ -74,34 +69,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Adventure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Adventure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Adventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Adventure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stephen" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549028524585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549033966771" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +92,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.stephen.Main" />
-      <module name="Adventure" />
+      <module name="SetsAndHashSets" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -137,11 +111,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32aa1135-aa3b-4016-915e-f46b2e5bc3ca" name="Default Changelist" comment="" />
-      <created>1549022307967</created>
+      <changelist id="a07086ed-dd04-4290-b5a2-a289c3499f83" name="Default Changelist" comment="" />
+      <created>1549028752133</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549022307967</updated>
+      <updated>1549028752133</updated>
     </task>
     <servers />
   </component>
@@ -162,7 +136,7 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3293944" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3293944" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -178,17 +152,31 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/stephen/Main.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Java-Collections-Sets-&amp;-HashSet-Source-code.zip/src/com/timbuchalka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="476">
+          <caret line="75" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stephen/Location.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Java-Collections-Sets-&amp;-HashSet-Source-code.zip/src/com/timbuchalka/HeavenlyBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="561">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stephen/HeavenlyBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stephen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
         </state>
       </provider>
     </entry>
