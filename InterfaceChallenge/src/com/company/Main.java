@@ -1,6 +1,7 @@
 package com.company;
 
 import java.net.InetSocketAddress;
+import java.time.chrono.IsoChronology;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -15,9 +16,14 @@ public class Main {
         System.out.println(ste);
         ste.setWeapons("knife");
         saveObj(ste);
-        loadObj(ste);
+//        loadObj(ste);
         System.out.println(ste);
 
+        ISavable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println("Strength = " + ((Monster) werewolf).getStrenght());
+        // ^^^ We have to cast the ISavable to the Monster class to use the above//
+        System.out.println(werewolf);
+        saveObj(werewolf);
     }
     public static ArrayList<String> readValues(){
         ArrayList<String> values = new ArrayList<String>();
